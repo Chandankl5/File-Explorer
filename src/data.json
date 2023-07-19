@@ -1,0 +1,184 @@
+{
+  "filesById": {
+    "0a": {
+      "id": "0a",
+      "name": "Sapphire",
+      "files": ["1a", "1b", "1c", "1d", "1e"]
+    },
+    "1a": {
+      "id": "1a",
+      "name": "public",
+      "files": ["2a", "2b"],
+      "createdOn": "3 days ago",
+      "lastEditedOn": "1 day ago"
+    },
+    "1b": {
+      "id": "1b",
+      "name": "src",
+      "files": ["2c", "2d", "2e"],
+      "createdOn": "6 days ago",
+      "lastEditedOn": "4 days ago"
+    },
+    "1c": {
+      "id": "1c",
+      "name": "README.md",
+      "createdOn": "2 days ago",
+      "lastEditedOn": "1 day ago"
+    },
+    "1d": {
+      "id": "1d",
+      "name": "package.json",
+      "createdOn": "10 days ago",
+      "lastEditedOn": "9 days ago"
+    },
+    "1e": {
+      "id": "1e",
+      "name": "tsconfig.json",
+      "createdOn": "9 days ago",
+      "lastEditedOn": "8 days ago"
+    },
+    "2a": {
+      "id": "2a",
+      "name": "index.html",
+      "createdOn": "5 days ago",
+      "lastEditedOn": "2 day ago"
+    },
+    "2b": {
+      "id": "2b",
+      "name": "manifest.json",
+      "createdOn": "6 days ago",
+      "lastEditedOn": "3 days ago"
+    },
+    "2c": {
+      "id": "2c",
+      "name": "components",
+      "files": ["3a", "3c", "3f", "3d", "3e"],
+      "createdOn": "7 days ago",
+      "lastEditedOn": "2 day ago"
+    },
+    "2d": {
+      "id": "2d",
+      "name": "ducks",
+      "files": ["3b"],
+      "createdOn": "4 days ago",
+      "lastEditedOn": "1 day ago"
+    },
+    "2e": {
+      "id": "2e",
+      "name": "utils",
+      "files": ["3g"],
+      "createdOn": "5 days ago",
+      "lastEditedOn": "1 day ago"
+    },
+    "3a": {
+      "id": "3a",
+      "name": "FileExplorer",
+      "files": ["4a", "4b"],
+      "createdOn": "3 days ago",
+      "lastEditedOn": "1 day ago"
+    },
+    "3b": {
+      "id": "3b",
+      "name": "folderSlice.ts",
+      "createdOn": "4 days ago",
+      "lastEditedOn": "1 day ago"
+    },
+    "3c": {
+      "id": "3c",
+      "name": "File",
+      "files": ["4c", "4d"],
+      "createdOn": "4 days ago",
+      "lastEditedOn": "1 day ago"
+    },
+    "3d": {
+      "id": "3d",
+      "name": "FilesTreeView",
+      "createdOn": "4 days ago",
+      "files": ["4e", "4f"],
+      "lastEditedOn": "1 day ago"
+    },
+    "3e": {
+      "id": "3e",
+      "name": "FileContentView",
+      "files": ["4g", "4h"],
+      "createdOn": "4 days ago",
+      "lastEditedOn": "1 day ago"
+    },
+    "3f": {
+      "id": "3f",
+      "name": "Folder",
+      "files": ["4i", "4j"],
+      "createdOn": "4 days ago",
+      "lastEditedOn": "1 day ago"
+    },
+    "3g": {
+      "id": "3g",
+      "name": "formatFileByIds.ts",
+      "createdOn": "7 days ago",
+      "lastEditedOn": "1 day ago"
+    },
+    "4a": {
+      "id": "4a",
+      "name": "FileExplorer.tsx",
+      "createdOn": "13 days ago",
+      "lastEditedOn": "6 day ago"
+    },
+    "4b": {
+      "id": "4b",
+      "name": "FileExplorerContainer.tsx",
+      "createdOn": "3 days ago",
+      "lastEditedOn": "1 day ago"
+    },
+    "4c": {
+      "id": "4c",
+      "name": "File.tsx",
+      "createdOn": "10 days ago",
+      "lastEditedOn": "1 day ago"
+    },
+    "4d": {
+      "id": "4d",
+      "name": "FileContainer.tsx",
+      "createdOn": "7 days ago",
+      "lastEditedOn": "3 day ago"
+    },
+    "4e": {
+      "id": "4e",
+      "name": "FilesTreeView.tsx",
+      "createdOn": "7 days ago",
+      "lastEditedOn": "3 day ago"
+    },
+    "4f": {
+      "id": "4f",
+      "name": "FilesTreeViewContainer.tsx",
+      "createdOn": "7 days ago",
+      "lastEditedOn": "3 day ago"
+    },
+    "4g": {
+      "id": "4g",
+      "name": "FileContentView.tsx",
+      "createdOn": "7 days ago",
+      "lastEditedOn": "3 day ago"
+    },
+    "4h": {
+      "id": "4h",
+      "name": "FileCOntentViewContainer.tsx",
+      "createdOn": "7 days ago",
+      "lastEditedOn": "3 day ago"
+    },
+    "4i": {
+      "id": "4i",
+      "name": "Folder.tsx",
+      "createdOn": "7 days ago",
+      "lastEditedOn": "3 day ago"
+    },
+    "4j": {
+      "id": "4j",
+      "name": "FolderContainer.tsx",
+      "createdOn": "7 days ago",
+      "lastEditedOn": "3 day ago"
+    }
+  },
+  "rootModule": {
+    "id": "0a"
+  }
+}
