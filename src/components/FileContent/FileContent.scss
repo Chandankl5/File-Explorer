@@ -1,0 +1,32 @@
+.file-content {
+  &__name {
+    width: 0;
+    flex-grow: 1;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    vertical-align: top;
+  }
+}
+
+tr:hover {
+  background-color: rgb(33, 38, 45)
+}
+
+tbody {
+  font-size: 14px;
+
+  tr {
+    border-bottom: 1px solid #30363d;
+    height: 40px;
+    padding: 0.5rem;
+  }
+
+  td {
+    padding-left: 1rem;
+  }
+
+  .td-right {
+    text-align: right;
+    padding-right: 1rem;
+  } 
+}
