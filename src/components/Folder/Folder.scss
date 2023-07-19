@@ -1,0 +1,30 @@
+.folder-view {
+  transition: max-height ease 0.5s;
+  padding-left: 12px;
+
+  &--collapsed {
+    max-height: 0;
+    overflow: hidden;
+  }  
+}
+
+.folder {
+  cursor: pointer;
+
+  &__content {
+    padding: 0.625rem 1rem;
+    font-size: 14px;
+  }
+
+  &__name {
+    margin-left: 0.5rem;
+  }
+
+  &__icon {
+    margin-left: 0.5rem;
+  }
+
+  &--highlight {
+    background-color: rgba(177, 186, 196, 0.08);
+  }
+}
