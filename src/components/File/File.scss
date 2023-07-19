@@ -1,0 +1,20 @@
+.file {
+  padding: 0.625rem 1rem;
+  cursor: pointer;
+  display: flex;
+
+  &__name {
+    width: 0;
+    flex-grow: 1;
+    margin-left: 0.5rem;
+    vertical-align: top;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  &--highlight {
+    background-color: rgba(177, 186, 196, 0.08);
+  }
+}
