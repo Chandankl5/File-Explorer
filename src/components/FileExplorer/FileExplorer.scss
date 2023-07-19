@@ -1,0 +1,49 @@
+.file-explorer {
+  display: block;
+  color: white;
+  height: 100%;
+  padding: 1.75rem 1.25rem;
+  border: 1px solid rgb(125, 133, 144);
+  border-radius: 6px;
+
+  &__col-right {
+    display: none;
+  }
+
+  &__side-header {
+    margin: 0.5rem 0;
+  }
+
+  &__separator {
+    cursor: col-resize;
+    width: 1px;
+    background: transparent;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .file-explorer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
+
+  &__col-left {
+    grid-column: 1/2;
+  }
+
+    &__col-right {
+      display: block;
+      grid-column: 2/7;
+      padding-left: 1rem;
+      border-left: 1px solid rgb(125, 133, 144);
+    }
+  }
+}
+
+.file-explorer-wrapper {
+  position: fixed;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(33, 38, 45);
+}
